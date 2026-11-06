@@ -11,13 +11,15 @@ content or operational integration. The retained logo is an approved brand asset
 | Internal collection | `src/content/news/` |
 | Company / code | `Smart Sailboat` / `SSB` |
 | Slack channel | `pressly_smartsailboat` |
+| Shared Release Log | [Pressly Master Release Log](https://docs.google.com/spreadsheets/d/1fTCJcVgDANYpEA4ACkbdfe7PSU6lRlJ8SzblnaRKxP0/edit) |
+| Protocol installation | `/home/zeus/.openclaw/workspace-pressly/company-protocols/SSB.md` |
 | Proposed new repository | `editnew-git/smartsailboat` |
 | Branch | `main` |
 | Static output / container port | `dist` / `80` |
 | Logo | `/images/brand/smart-sail-boat-logo.png` |
 | Discovery | `/sitemap.xml`, `/rss.xml`, `/robots.txt` |
 
-1. Review `site.config.json`; run `npm ci`, `npm test`, `npm run build` and
+1. Review `site.config.json`; run `npm ci`, `npm run check:setup`, `npm test`, `npm run build` and
    `npm run pressly:setup`.
 2. Create the new repository and connect a new Dokploy application using the
    supplied Dockerfile. Test it on a preview hostname.
