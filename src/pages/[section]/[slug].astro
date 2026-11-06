@@ -1,0 +1,37 @@
+---
+import { render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { publishedStories, displayDate } from '../../lib/stories';
+import { availableImage, site, absoluteUrl, storyPath } from '../../lib/site.mjs';
+export async function getStaticPaths() {
+  return (await publishedStories()).map(story => ({ params: { section: site.routePrefix.slice(1, -1), slug: story.data.slug }, props: { story } }));
+}
+const { story } = Astro.props;
+const { Content } = await render(story);
+const { title, subheadline, excerpt, date, tags, image, location } = story.data;
+const cover = availableImage(image);
+const related = (await publishedStories()).filter(other => other.id !== story.id && other.data.tags.some(tag => tags.includes(tag))).slice(0, 3);
+const structured = {
+  '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title,
+  description: excerpt || site.description, datePublished: date,
+  mainEntityOfPage: absoluteUrl(storyPath(story.data.slug)),
+  publisher: { '@type': 'Organization', name: site.companyName },
+  ...(cover ? { image: absoluteUrl(cover) } : {}),
+};
+---
+<SiteLayout title={title} description={excerpt || site.description} image={cover} article date={date}>
+  <article class="story-page">
+    <header class="article-header shell">
+      <a class="back-link" href={site.routePrefix}>← All stories</a>
+      <div class="metadata"><time datetime={date}>{displayDate(date)}</time>{location && <span>{location}</span>}</div>
+      <h1>{title}</h1>
+      {(subheadline || excerpt) && <p class="article-deck">{subheadline || excerpt}</p>}
+      {tags.length > 0 && <ul class="tag-list" aria-label="Topics">{tags.map(tag => <li>{tag.replaceAll('-', ' ')}</li>)}</ul>}
+    </header>
+    {cover && <div class="article-cover shell"><img src={cover} alt="" width="1440" height="960" fetchpriority="high" /></div>}
+    <div class="prose"><Content /></div>
+  </article>
+  {related.length > 0 && <section class="shell related"><div class="section-heading"><h2>Keep exploring</h2><a href={site.routePrefix}>All stories ↗</a></div><div class="story-grid">{related.map(item => <StoryCard story={item} />)}</div></section>}
+  <script type="application/ld+json" set:html={JSON.stringify(structured).replaceAll('<', '\\u003c')} />
+</SiteLayout>

@@ -1,0 +1,14 @@
+{
+  "siteName": "Smart Sailboat",
+  "companyName": "Smart Sailboat",
+  "companyCode": "SSB",
+  "siteUrl": "https://smartsailboat.com",
+  "routePrefix": "/stories/",
+  "description": "Stories about sailing, vessel projects, onboard systems, and lessons learned on the water.",
+  "language": "en",
+  "colors": { "ink": "#013650", "accent": "#007ba8", "paper": "#f4f8fa" },
+  "logoPath": "/images/brand/smart-sail-boat-logo.png",
+  "githubOwner": "editnew-git",
+  "githubRepo": "smartsailboat",
+  "slackChannel": "pressly_smartsailboat"
+}

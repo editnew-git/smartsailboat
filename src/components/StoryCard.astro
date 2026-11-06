@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { storyPath, availableImage } from '../lib/site.mjs';
+import { displayDate } from '../lib/stories';
+interface Props { story: CollectionEntry<'news'>; }
+const { story } = Astro.props;
+const { title, excerpt, date, tags, slug, image } = story.data;
+const cover = availableImage(image);
+---
+<article class="story-card" data-story data-search={`${title} ${excerpt || ''} ${tags.join(' ')}`.toLocaleLowerCase()} data-tags={JSON.stringify(tags)}>
+  <a class="card-image" href={storyPath(slug)} tabindex="-1" aria-hidden="true">
+    {cover ? <img src={cover} alt="" loading="lazy" width="960" height="640" /> : <div class="cover-placeholder"><span>{tags[0] || 'From the journal'}</span><span class="cover-mark" aria-hidden="true">↗</span></div>}
+  </a>
+  <div class="card-body">
+    <div class="metadata"><time datetime={date}>{displayDate(date)}</time>{tags[0] && <span>{tags[0].replaceAll('-', ' ')}</span>}</div>
+    <h2><a href={storyPath(slug)}>{title}</a></h2>
+    {excerpt && <p>{excerpt}</p>}
+    <a class="text-link" href={storyPath(slug)} aria-label={`Read ${title}`}>Read story <span aria-hidden="true">↗</span></a>
+  </div>
+</article>

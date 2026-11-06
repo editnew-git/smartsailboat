@@ -1,0 +1,24 @@
+{
+  "name": "smartsailboat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/check-config.mjs && astro build",
+    "preview": "astro preview",
+    "test": "node --test tests/*.test.mjs",
+    "check:setup": "node scripts/check-config.mjs --production",
+    "pressly:setup": "node scripts/pressly-setup.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "7.2.0",
+    "astro": "6.4.8",
+    "rehype-raw": "7.0.0",
+    "rehype-sanitize": "6.0.0"
+  }
+}

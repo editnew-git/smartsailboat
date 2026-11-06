@@ -1,0 +1,19 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { site } from '../lib/site.mjs';
+import { publishedStories } from '../lib/stories';
+const stories = await publishedStories();
+---
+<SiteLayout>
+  <section class="hero shell">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> The journal</p>
+    <h1>{site.siteName}<span class="hero-dot" aria-hidden="true">.</span></h1>
+    <div class="hero-bottom"><p class="hero-description">{site.description}</p><a class="button" href={site.routePrefix}>Explore stories <span aria-hidden="true">↗</span></a></div>
+  </section>
+  <section class="journal-section shell" aria-labelledby="latest-title">
+    <div class="section-heading"><h2 id="latest-title">Latest stories</h2><span class="eyebrow">Notes &amp; perspectives</span></div>
+    {stories.length ? <div class="story-grid">{stories.slice(0, 6).map(story => <StoryCard story={story} />)}</div> : <div class="empty-state"><span class="empty-symbol" aria-hidden="true">✳</span><h3>A new chapter begins here.</h3><p>Our first stories are on their way. Check back soon for updates.</p></div>}
+    {stories.length > 6 && <div class="browse-more"><a class="button button-outline" href={site.routePrefix}>View all stories <span aria-hidden="true">↗</span></a></div>}
+  </section>
+</SiteLayout>

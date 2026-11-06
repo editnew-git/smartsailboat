@@ -1,0 +1,47 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { publishedStories } from '../../lib/stories';
+import { site } from '../../lib/site.mjs';
+export function getStaticPaths() { return [{ params: { section: site.routePrefix.slice(1, -1) } }]; }
+const stories = await publishedStories();
+const tags = [...new Set(stories.flatMap(story => story.data.tags))].sort();
+---
+<SiteLayout title="Stories" description="Explore the journal. Browse stories by topic or search for something specific.">
+  <div class="shell archive">
+    <header class="page-header"><p class="eyebrow">The archive</p><h1>Stories<span class="hero-dot" aria-hidden="true">.</span></h1><p>Ideas, updates, and discoveries along the way.</p></header>
+    {stories.length > 0 && <form class="filters" role="search" data-filters hidden>
+      <div><label for="story-search">Search stories</label><input id="story-search" type="search" placeholder="A topic, a project, a story…" autocomplete="off" /></div>
+      <div><label for="topic-filter">Topic</label><select id="topic-filter"><option value="">All topics</option>{tags.map(tag => <option value={tag}>{tag.replaceAll('-', ' ')}</option>)}</select></div>
+      <p class="result-count" aria-live="polite" data-result-count>{stories.length} {stories.length === 1 ? 'story' : 'stories'}</p>
+    </form>}
+    <div class="story-grid">{stories.map(story => <StoryCard story={story} />)}</div>
+    <div class="empty-state" data-empty hidden={stories.length > 0}><h2>{stories.length ? 'No matching stories.' : 'The journal is just beginning.'}</h2><p>{stories.length ? 'Try another search or choose a different topic.' : 'New stories will appear here as they are published.'}</p></div>
+  </div>
+</SiteLayout>
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-filters]');
+  const input = document.querySelector<HTMLInputElement>('#story-search');
+  const select = document.querySelector<HTMLSelectElement>('#topic-filter');
+  const cards = [...document.querySelectorAll<HTMLElement>('[data-story]')];
+  const count = document.querySelector<HTMLElement>('[data-result-count]');
+  const empty = document.querySelector<HTMLElement>('[data-empty]');
+  if (form && input && select && count && empty) {
+    form.hidden = false;
+    form.addEventListener('submit', event => event.preventDefault());
+    const filter = () => {
+      const terms = input.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+      let visible = 0;
+      for (const card of cards) {
+        const tags: string[] = JSON.parse(card.dataset.tags || '[]');
+        const matches = terms.every(term => (card.dataset.search || '').includes(term)) && (!select.value || tags.includes(select.value));
+        card.hidden = !matches;
+        if (matches) visible++;
+      }
+      count.textContent = `${visible} ${visible === 1 ? 'story' : 'stories'}`;
+      empty.hidden = visible > 0;
+    };
+    input.addEventListener('input', filter);
+    select.addEventListener('change', filter);
+  }
+</script>
