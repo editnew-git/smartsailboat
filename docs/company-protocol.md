@@ -1,6 +1,6 @@
-# Smart Sailboat publishing protocol
+# Smart Sail Boat publishing protocol
 
-- Company: Smart Sailboat
+- Company: Smart Sail Boat
 - Company Code: `SSB`
 - Destination: `https://smartsailboat.com`
 - Public articles: `/stories/{permanent-slug}/`
@@ -8,8 +8,9 @@
 
 ## Scope and topics
 
-Publish approved project milestones, vessel stories, systems/equipment articles,
-refit and maintenance stories, voyages, field tests and public lessons learned.
+Publish approved project milestones, vessel stories, cleanup and refit documentation,
+onboard systems/equipment articles, technology demonstrations, maintenance stories,
+voyages, field tests and public lessons learned.
 Approved documentary video may accompany a story through Pressly's media workflow.
 Every article uses at least one canonical topic: `project-update`, `vessel-story`,
 `systems`, `refit-maintenance`, `voyage`, or `safety-security`.
@@ -44,5 +45,5 @@ articles need the current human publication instruction; video projects need the
 original requester's trusted approval of the exact review package. Neither the
 website nor this protocol grants automatic publication authority.
 
-This fresh template does not define vessel-specific profile routes or migrate old
-articles. Add such features deliberately when their public content is approved.
+The publication uses the shared Astro template without importing old articles or
+vessel profiles. Browser-based knowledge chat is a separate future capability.

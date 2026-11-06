@@ -1,10 +1,10 @@
 {
-  "siteName": "Smart Sailboat",
-  "companyName": "Smart Sailboat",
+  "siteName": "Smart Sail Boat",
+  "companyName": "Smart Sail Boat",
   "companyCode": "SSB",
   "siteUrl": "https://smartsailboat.com",
   "routePrefix": "/stories/",
-  "description": "Stories about sailing, vessel projects, onboard systems, and lessons learned on the water.",
+  "description": "A journal of sailing, vessel projects, cleanup and refits, onboard technology, and lessons learned on the water.",
   "language": "en",
   "colors": { "ink": "#013650", "accent": "#007ba8", "paper": "#f4f8fa" },
   "logoPath": "/images/brand/smart-sail-boat-logo.png",

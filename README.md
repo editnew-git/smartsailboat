@@ -1,68 +1,47 @@
-# Smart Sailboat — fresh Pressly site
+# Smart Sail Boat
 
-This is a new, empty publication configured for **https://smartsailboat.com**.
-It contains the approved Smart Sail Boat logo and new site defaults, with no old
-Deck articles, vessel profiles, release IDs, deployment IDs or GitHub remote.
-The proposed new repository is `editnew-git/smartsailboat`; it has not been created
-on GitHub. The intended channel is `pressly_smartsailboat`. Both remain setup
-choices until you register the new publication.
+A journal of sailing, vessel projects, cleanup and refits, onboard technology,
+and lessons learned on the water. Built from the reusable Pressly Astro template.
 
-Start with [the Smart Sailboat setup notes](docs/SMARTSAILBOAT.md), then follow the
-complete Pressly setup guide below. The apex domain's existing website and DNS
-must be intentionally cut over when you are ready to launch.
+The permanent website is **https://smartsailboat.com**, with stories at
+`/stories/{slug}/`. The publication is being staged while production DNS is
+unavailable; the welcome story requires review before publication.
 
-A fresh static publication site for the existing Pressly → Release Log → n8n →
-GitHub workflow. It includes an article archive, search and topic filters, responsive
-article pages, controlled YouTube embeds, canonical metadata, RSS, sitemap and a
-static Docker deployment. There are no published sample articles or live credentials.
+Follow the [end-to-end setup runbook](docs/SETUP_RUNBOOK.md) for template use,
+repository and hosting configuration, Pressly registration, media connections,
+verification, and the remaining DNS cutover. The [launch values](docs/SMARTSAILBOAT.md)
+and [general setup reference](docs/PRESSLY_SETUP.md) provide supporting detail.
 
-## Start locally
+## Local development
 
-Use the Node version required by `package.json`.
+Use Node 22.12 or later.
 
 ```sh
 npm ci
 npm run dev
-```
-
-Edit `site.config.json` for the identity, HTTPS origin, colors, optional logo,
-repository and Slack channel. These are local defaults, not proof of live setup.
-Keep the site's public content directory empty until Pressly publishes content.
-
-```sh
-npm run pressly:setup
+npm run check:setup
 npm test
 npm run build
-npm run preview
 ```
 
-`pressly:setup` prints proposed Channel Registry, Settings and optional media values.
-It does not create, register, publish or enable anything. The registry proposal is
-inactive until the operator completes the setup checks.
+`site.config.json` controls identity, canonical URLs, colors, logo, repository and
+channel defaults. `npm run pressly:setup` prints an inactive operator proposal;
+it does not create or enable provider resources.
 
-## Connect Pressly
+## Publishing contract
 
-Follow [the complete setup guide](docs/PRESSLY_SETUP.md), in order. It covers the
-repository, hosting, root domain or subdomain, Slack access, shared Release Log,
-n8n synchronization, durable images, optional video delivery, and acceptance checks.
+Pressly uses `pressly_smartsailboat` and company code `SSB`. The shared Release
+Registry owns article content and lifecycle. n8n writes published Markdown to
+`src/content/news/` and cover images to `public/images/news/`; pushes to `main`
+trigger the hosting build. Update articles through Pressly, since a later sync
+can replace direct edits to generated content.
 
-The shared internal collection must remain `src/content/news/`. The public route
-is configured separately. The installed Pressly CLI returns `/stories/{slug}/`
-for company code `SSB` and `/news/{slug}` for other companies; the site accepts the
-corresponding route and canonicalizes it with a trailing slash.
+The site includes responsive article pages, archive search and topic filters,
+controlled YouTube embeds, RSS, sitemap, canonical metadata, and a static
+Docker/nginx deployment. Examples stay outside the production content collection.
 
-`examples/` contains reference material outside the public content collection.
-Do not copy a sample into production as an approved article.
-
-## Ownership
-
-The Pressly Release Registry owns articles and lifecycle state. n8n materializes
-approved content in this repository. Website source and presentation are maintained
-here; editing a generated article here is not a durable editorial update because
-the next sync can replace it. Media projects and approvals belong to Pressly's
-central media database. Business/vessel Master Logs are separate authorities.
-
-Nothing in this repository grants permission to publish private source material.
-See [the company protocol example](docs/company-protocol.md) before registering a
-new company. Build secrets and provider credentials belong on the appropriate
-server, never in this repository or browser assets.
+Media projects, image profiles, approvals and integration receipts belong to
+Pressly's media registry. Business and vessel Master Logs retain their separate
+authority. See the [publishing protocol](docs/company-protocol.md) for public
+content boundaries. Credentials and private operational evidence never belong
+in this repository.
