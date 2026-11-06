@@ -7,6 +7,9 @@ The permanent website is **https://smartsailboat.com**, with stories at
 `/stories/{slug}/`. The publication is being staged while production DNS is
 unavailable; the welcome story requires review before publication.
 
+[Open the staging preview](https://ssb-preview.187.124.242.106.sslip.io).
+The preview is excluded from indexing and retains the permanent canonical URLs.
+
 Follow the [end-to-end setup runbook](docs/SETUP_RUNBOOK.md) for template use,
 repository and hosting configuration, Pressly registration, media connections,
 verification, and the remaining DNS cutover. The [launch values](docs/SMARTSAILBOAT.md)

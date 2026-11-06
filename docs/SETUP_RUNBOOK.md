@@ -149,7 +149,7 @@ package requires its original requester's revision-bound review-button approval.
 ## 9. Complete DNS and launch
 
 When the DNS provider is available, change only the apex A record to the verified
-hosting IPv4 address. Preserve `www` pointing to the apex and all unrelated
+hosting IPv4 address (`187.124.242.106` for this deployment). Preserve `www` pointing to the apex and all unrelated
 mail/TXT records. Lower TTL if available and allow existing cached TTLs to expire.
 Add apex HTTPS routing and a `www` redirect preserving the request path. Check
 authoritative and public DNS, certificate issuance and the correct application.
