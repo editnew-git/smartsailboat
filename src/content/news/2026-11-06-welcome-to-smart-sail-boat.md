@@ -25,6 +25,12 @@ Jeremiah got Sabrina a flower-shaped hair clip today.
 
 ![A flower-shaped hair clip held in a hand outdoors in sunlight.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-d37eca416f862a7984a9328f14bc0c6ac8796b9d473f12b06773cab552ff1697.webp)
 
+## Laundry drop-off
+
+We dropped off our laundry today.
+
+![Laundry being handed over at a blue service counter with washing machines visible inside.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-95247488b2312511fef316c4e72ca5cc32af7705589e24d7fa0899ca1268400e.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
