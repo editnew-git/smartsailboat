@@ -9,6 +9,8 @@ tags: ["project-update"]
 draft: false
 ---
 
+Hi Jeff
+
 hello Sabrina
 
 [Smart Sail Boat](https://smartsailboat.com) is a place to follow the practical work,
