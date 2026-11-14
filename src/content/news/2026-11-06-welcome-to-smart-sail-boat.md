@@ -49,6 +49,12 @@ We came across this beautiful tile and artwork.
 
 ![An arched wall display of amber tiles framing a colorful maritime tile mural, with a blue-and-white tiled cross below.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-373ab1cab38a57168fe160996760de21b604f209070695bb842a0200894d1b82.webp)
 
+## The centre of Old Town Mazatlán
+
+A sunny view from the centre of Old Town Mazatlán, with palms, shaded benches, and a brick-paved walkway.
+
+![A sunny brick-paved walkway in the centre of Old Town Mazatlán, lined with palm trees, benches, and greenery.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-824e0b3dee7cde55052129d94fc0a01ccae971be092a37df3a74a9a2c730a6d9.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
