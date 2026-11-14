@@ -43,6 +43,12 @@ Only in Mexico can I charge my phone at a crosswalk.
 
 ![A utility pole with an electrical outlet beside a sunny street intersection in Mazatlán.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-75fa790c897e9a0489e2e0975b885f648f7444945eb2f6c2a29d88b0a2fccad4.webp)
 
+## Tile artwork along the way
+
+We came across this beautiful tile and artwork.
+
+![An arched wall display of amber tiles framing a colorful maritime tile mural, with a blue-and-white tiled cross below.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-373ab1cab38a57168fe160996760de21b604f209070695bb842a0200894d1b82.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
