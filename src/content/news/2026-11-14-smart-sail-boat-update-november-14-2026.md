@@ -3,7 +3,7 @@ title: "Smart Sail Boat Update — November 14, 2026"
 subheadline: "A working story for updates added throughout the day."
 date: "2026-11-14"
 slug: "2026-11-14-smart-sail-boat-update-november-14-2026"
-image: "/images/news/placeholder.jpg"
+image: "/images/news/2026-11-14-smart-sail-boat-update-november-14-2026.jpg"
 excerpt: "A working update for November 14, 2026."
 tags: ["project-update"]
 draft: false
