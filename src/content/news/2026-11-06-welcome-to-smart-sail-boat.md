@@ -9,6 +9,8 @@ tags: ["project-update"]
 draft: false
 ---
 
+hello Jess
+
 [Smart Sail Boat](https://smartsailboat.com) is a place to follow the practical work,
 questions, and lessons that come with a vessel project.
 
