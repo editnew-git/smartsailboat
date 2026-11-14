@@ -57,6 +57,12 @@ A sunny view from the centre of Old Town Mazatlán, with palms, shaded benches, 
 
 ![A sunny brick-paved walkway in the centre of Old Town Mazatlán, lined with palm trees, benches, and greenery.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-824e0b3dee7cde55052129d94fc0a01ccae971be092a37df3a74a9a2c730a6d9.webp)
 
+## Jess getting fresh
+
+Jess getting fresh.
+
+![Jess seated in a barber chair getting a haircut at a barbershop.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-c4e1c7187275a4cb426bdd194c47b8059abc34b6c524a27288701518d9266110.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
