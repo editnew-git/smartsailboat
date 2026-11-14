@@ -37,6 +37,12 @@ Walking down the street in Mazatlán with Jess and Jeremiah.
 
 ![A sunny, tree-lined street in Mazatlán with parked vehicles, a sidewalk, and a clear blue sky.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-0d34bc6a00bed6b3549acd098cca10ca3f204debc97c14d2085f404c46949a2a.webp)
 
+## Charging at the crosswalk
+
+Only in Mexico can I charge my phone at a crosswalk.
+
+![A utility pole with an electrical outlet beside a sunny street intersection in Mazatlán.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-75fa790c897e9a0489e2e0975b885f648f7444945eb2f6c2a29d88b0a2fccad4.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
