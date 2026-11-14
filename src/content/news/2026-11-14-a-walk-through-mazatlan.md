@@ -14,7 +14,7 @@ draft: false
 
 ![A sunny street in Mazatlán with market stalls, local storefronts, palm trees and city buildings.](https://media.wwds.co/u/pressly-pr-ssb-20261114-003-3dd8d96c7445e21833f247b7bd9f596e15292e112aafbf70bed1fe1ea41a02d2.webp)
 
-Market stalls and local storefronts lined the road, with palms and city buildings visible farther along the route. Inside the market, counters were filled with fresh seafood, adding another vivid glimpse of the city during our walk. It was a simple snapshot from our time exploring the city on foot.
+Market stalls and local storefronts lined the road, with palms and city buildings visible farther along the route. Inside the market, counters were filled with fresh seafood, adding another vivid glimpse of the city during our walk. Along the way, we also spotted a parrot. It was a simple snapshot from our time exploring the city on foot.
 
 ## About Smart Sail Boat
 
