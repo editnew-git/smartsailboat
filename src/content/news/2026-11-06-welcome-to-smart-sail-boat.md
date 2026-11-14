@@ -31,6 +31,12 @@ We dropped off our laundry today.
 
 ![Laundry being handed over at a blue service counter with washing machines visible inside.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-95247488b2312511fef316c4e72ca5cc32af7705589e24d7fa0899ca1268400e.webp)
 
+## Walking through Mazatlán
+
+Walking down the street in Mazatlán with Jess and Jeremiah.
+
+![A sunny, tree-lined street in Mazatlán with parked vehicles, a sidewalk, and a clear blue sky.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-0d34bc6a00bed6b3549acd098cca10ca3f204debc97c14d2085f404c46949a2a.webp)
+
 ## From preparation to practical lessons
 
 The planned coverage includes the everyday work of preparing a boat alongside
