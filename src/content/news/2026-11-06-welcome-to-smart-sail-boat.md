@@ -6,7 +6,7 @@ slug: "2026-11-06-welcome-to-smart-sail-boat"
 image: "/images/news/2026-11-06-welcome-to-smart-sail-boat.webp"
 excerpt: "Introducing a journal for sailing stories, vessel cleanup and refits, practical onboard technology, and lessons from the work along the way."
 tags: ["project-update"]
-draft: true
+draft: false
 ---
 
 hello Sabrina
@@ -18,6 +18,12 @@ This journal will bring together selected stories about sailing, cleanup and
 refits, maintenance, and onboard technology. The aim is to explain the work clearly:
 what a project is trying to achieve, what has been tried, and what still needs
 attention.
+
+## A small moment from today
+
+Jeremiah got Sabrina a flower-shaped hair clip today.
+
+![A flower-shaped hair clip held in a hand outdoors in sunlight.](https://media.wwds.co/u/pressly-pr-ssb-20261106-001-d37eca416f862a7984a9328f14bc0c6ac8796b9d473f12b06773cab552ff1697.webp)
 
 ## From preparation to practical lessons
 
