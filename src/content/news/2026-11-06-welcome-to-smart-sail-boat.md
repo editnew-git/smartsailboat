@@ -6,7 +6,7 @@ slug: "2026-11-06-welcome-to-smart-sail-boat"
 image: "/images/news/2026-11-06-welcome-to-smart-sail-boat.webp"
 excerpt: "Introducing a journal for sailing stories, vessel cleanup and refits, practical onboard technology, and lessons from the work along the way."
 tags: ["project-update"]
-draft: false
+draft: true
 ---
 
 hello Sabrina
