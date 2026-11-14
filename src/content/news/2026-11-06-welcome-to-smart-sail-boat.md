@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Smart Sail Boat"
+title: "Herler mer Merm"
 subheadline: "A journal of vessel projects, onboard technology, and lessons learned on the water."
 date: "2026-11-06"
 slug: "2026-11-06-welcome-to-smart-sail-boat"
