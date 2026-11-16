@@ -28,6 +28,8 @@ The demonstration documents an approach under development: capture the source ma
 
 *Cover image: generated editorial illustration based on the demonstrated workflow; it is not a photograph of the actual session.*
 
+[Pressly video](https://www.youtube.com/watch?v=SG82GgLy3WQ "Demonstrating an AI-Assisted Receipt Intake Workflow")
+
 ## About Smart Sail Boat
 
 A journal of sailing, vessel projects, cleanup and refits, onboard technology, and lessons learned on the water.
