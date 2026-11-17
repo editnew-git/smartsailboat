@@ -25,6 +25,8 @@ The video shifts from the onboard discussion to a walk near the dock, where the 
 
 This original, uncut recording documents a work-in-progress test: what the participants are trying, what made the earlier attempt difficult and what they plan to evaluate next.
 
+[Pressly video](https://www.youtube.com/watch?v=CbkEa-ygcfk "Testing a Video-to-Story Workflow From a Sailboat")
+
 ## About Smart Sail Boat
 
 A journal of sailing, vessel projects, cleanup and refits, onboard technology, and lessons learned on the water.
