@@ -21,6 +21,10 @@ There is no major milestone or complicated plan in this moment. It is simply a g
 
 The recording also includes a couple of unclear phrases, so they have been left out rather than interpreted. What remains is straightforward: quiet company can be good company, and an ordinary breakfast can be part of a day worth remembering.
 
+Watch the Breakfast with Bob video below.
+
+[Pressly video](https://www.youtube.com/watch?v=Hba92nZnKy8)
+
 ## About Smart Sail Boat
 
 A journal of sailing, vessel projects, cleanup and refits, onboard technology, and lessons learned on the water.
