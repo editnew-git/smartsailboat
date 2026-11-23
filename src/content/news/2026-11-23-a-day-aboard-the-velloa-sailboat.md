@@ -2,10 +2,14 @@
 title: "A Day Aboard the Velloa Sailboat"
 date: "2026-11-23"
 slug: "2026-11-23-a-day-aboard-the-velloa-sailboat"
-image: "/images/news/placeholder.jpg"
+image: "/images/news/2026-11-23-a-day-aboard-the-velloa-sailboat.png"
 tags: ["vessel-story"]
 draft: false
 ---
+
+<!-- pressly-cover -->
+*AI-generated illustration; not a photograph of the reported event.*
+<!-- /pressly-cover -->
 
 On November 23, 2026, Jeremiah is aboard the Velloa sailboat. This live field note for [Smart Sail Boat](https://smartsailboat.com) will be updated throughout the day as notes, photographs, and video are shared.
 
