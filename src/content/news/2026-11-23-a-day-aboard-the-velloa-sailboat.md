@@ -15,6 +15,8 @@ On November 23, 2026, Jeremiah is aboard the Velloa sailboat. This live field no
 
 ## Today’s log
 
+Hello, Jess!
+
 Updates from aboard Velloa will be added here as the day unfolds.
 
 ## Photos and video
