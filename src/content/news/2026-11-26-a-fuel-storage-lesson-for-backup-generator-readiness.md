@@ -7,6 +7,8 @@ tags: ["SSB", "systems", "refit-maintenance", "safety-security", "generator main
 draft: false
 ---
 
+Hello, Bobby.
+
 <!-- pressly-cover -->
 *AI-generated illustration; not a photograph of the reported event.*
 <!-- /pressly-cover -->
